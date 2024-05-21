@@ -1,0 +1,22 @@
+método para eliminar una raza
+http://localhost:9002/razas/nombre/Pastor_Aleman
+
+método para agregar un paciente
+http://localhost:9002/pacientes
+{
+    "nombre_paciente": "string",
+    "edad_paciente": 0,
+    "fecha_ingreso": "2024-05-21T05:07:24.266Z",
+    "razaSebas": {
+      "id": 1,
+    }
+}
+
+método para agregar una raza
+http://localhost:9002/razas
+{
+    "nombre_raza": "string",
+    "fecha_creacion": "2024-05-21T05:07:24.258Z",
+    "vacunado": true
+  }
+
